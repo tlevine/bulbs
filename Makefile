@@ -34,6 +34,4 @@ clean:
 
 
 docs:
-	$(MAKE) -C docs html
-
-
+	sphinx-build -b html -d build/docs/doctrees docs build/docs

@@ -13,7 +13,7 @@ def setup(app):
 #class social(nodes.General, nodes.Element):
 #    pass
 
-TEMPLATES = "/home/james/projects/bulbflow.com/www/root/templates"
+#TEMPLATES = "/home/james/projects/bulbflow.com/www/root/templates"
 
 class Snippet(Directive):
 
